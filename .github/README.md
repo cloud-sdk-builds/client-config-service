@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-config-service`](https://www.npmjs.com/package/@aws-sdk/client-config-service/v/3.1177.0).
+[`@aws-sdk/client-config-service`](https://www.npmjs.com/package/@aws-sdk/client-config-service/v/3.1178.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-config-service - [https://cloud-sdk-builds.github.io/?sdk=client-config-service](https://cloud-sdk-builds.github.io/?sdk=client-config-service)
-- @aws-sdk/client-config-service v3.1177.0 - [https://cloud-sdk-builds.github.io/?sdk=client-config-service&version=3.1177.0](https://cloud-sdk-builds.github.io/?sdk=client-config-service&version=3.1177.0)
+- @aws-sdk/client-config-service v3.1178.0 - [https://cloud-sdk-builds.github.io/?sdk=client-config-service&version=3.1178.0](https://cloud-sdk-builds.github.io/?sdk=client-config-service&version=3.1178.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-config-service@3.1177.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-config-service@3.1178.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-i8IW2gvNd5l43lNn9ZlEspk5+052zbjv8cZsj2OU6kEiw6c+XZKiah9IBCE0EnbH
+sha384-z2FE/zwjERC2nKcbJM8NJlod9M+8otGCgc3Z8o/hqMcb5DIp+gISR5dr91qD6PaO
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-config-service": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-config-service@3.1177.0/index.min.mjs"
+            "@aws-sdk/client-config-service": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-config-service@3.1178.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-config-service@3.1177.0/index.min.mjs": "sha384-i8IW2gvNd5l43lNn9ZlEspk5+052zbjv8cZsj2OU6kEiw6c+XZKiah9IBCE0EnbH"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-config-service@3.1178.0/index.min.mjs": "sha384-z2FE/zwjERC2nKcbJM8NJlod9M+8otGCgc3Z8o/hqMcb5DIp+gISR5dr91qD6PaO"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-config-service": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-config-service@3.1177.0/index.min.mjs"
+                        "@aws-sdk/client-config-service": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-config-service@3.1178.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-config-service@3.1177.0/index.min.mjs": "sha384-i8IW2gvNd5l43lNn9ZlEspk5+052zbjv8cZsj2OU6kEiw6c+XZKiah9IBCE0EnbH"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-config-service@3.1178.0/index.min.mjs": "sha384-z2FE/zwjERC2nKcbJM8NJlod9M+8otGCgc3Z8o/hqMcb5DIp+gISR5dr91qD6PaO"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1177.0`)
+* Always pin to a specific version (`@3.1178.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-config-service/blob/refs/tags/3.1177.0/LICENSE
+https://github.com/cloud-sdk-builds/client-config-service/blob/refs/tags/3.1178.0/LICENSE
 ```
 
 ---
